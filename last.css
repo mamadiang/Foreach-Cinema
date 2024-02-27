@@ -1,0 +1,48 @@
+@font-face {
+    font-family: Anta-Regular;
+    src: url(./assets/fonts/Anta-Regular.ttf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(89, 89, 211);
+}
+
+#header_container{
+    max-width: 1400px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    color: aliceblue;
+}
+
+#title{
+    font-family: Anta-Regular;
+    padding-top: 10px;
+}
+#profil_container{
+    display: flex;
+}
+.profil_images{
+    width: 20px;
+    filter: invert();
+}
+
+#epsace_compte{
+   list-style: none;
+   display:flex;
+}
+.mon_espace_pro{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.mon_compte{
+    margin-right: 10px;
+    text-align: center;
+}
+   
