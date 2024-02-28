@@ -8,7 +8,10 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+img{
+    width: 100%;
+    height: 100%;
+}
 header{
     background-color: rgb(89, 89, 211);
 }
@@ -45,4 +48,41 @@ header{
     margin-right: 10px;
     text-align: center;
 }
-   
+/* *header */
+
+#loto{
+   max-width: 1400px;
+   margin: auto;
+   padding-top: 10px;
+
+}
+#image_container{
+    width: 100%;
+}
+
+#jeux_promo{
+    position: relative;
+}
+#text_loto{
+    position:absolute;
+    top: 150px;
+    right: 50px;
+    color: aliceblue;
+    text-align: center;
+}
+
+#tarifs_films{
+    max-width: 1400px;
+    margin: auto;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: aliceblue;
+}
+.nav_link{
+    background-color: rgb(89, 89, 211);
+    width: 50%;
+    margin-left: 5px;
+    text-align: center;
+}
