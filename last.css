@@ -86,3 +86,13 @@ header{
     margin-left: 5px;
     text-align: center;
 }
+
+#list_tarifs{
+    background-color: pink;
+}
+.tarifs{
+    background-color: aliceblue;
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+}
